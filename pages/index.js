@@ -20,6 +20,7 @@ export default class Index extends React.Component {
         <Head>
           <title>Filehive - A dataset marketplace for Filecoin</title>
           <link rel="icon" href="/favicon.ico" />
+          <meta name=" theme-color" content="#F7A80F"></meta>
         </Head>
 
         <div className={styles.header}>
