@@ -256,13 +256,8 @@
 }
 
 @media (max-width: 600px) {
-  .buyers {
-    top: 620px;
-  }
-
   .buyers .category {
     height: 110px;
     width: 170px;
   }
-
 }
