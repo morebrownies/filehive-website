@@ -44,27 +44,27 @@ export default class Index extends React.Component {
               <h4>Buy curated collections of data to feed your engine:</h4>
 
               <div className={styles.flex}>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-expressions.png" /><br />
                   <span className={styles.label}>Expressions (JPG)</span>
                 </div>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-weather.png" /><br />
                   <span className={styles.label}>Weather (JSON)</span>
                 </div>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-social.png" /><br />
                   <span className={styles.label}>Trending posts (JSON)</span>
                 </div>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-stats.png" /><br />
                   <span className={styles.label}>Statistics (CSV)</span>
                 </div>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-xrays.png" /><br />
                   <span className={styles.label}>X-rays (PNG)</span>
                 </div>
-                <div className={styles.col}>
+                <div className={styles.col} onClick={this.scrollToWaitlist}>
                   <img className={styles.category} src="/category-prices.png" /><br />
                   <span className={styles.label}>Historical prices (SQL)</span>
                 </div>

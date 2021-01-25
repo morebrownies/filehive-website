@@ -153,6 +153,7 @@
 }
 
 .buyers .category {
+  cursor: pointer;
   height: 224px;
   width: 100%;
 }
